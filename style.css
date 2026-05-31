@@ -47,7 +47,7 @@ align-items:center;
 text-align:center;
 padding:40px;
 padding-top:120px;
-background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url("hero.jpg");
+background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("hero.jpg");
 background-size:cover;
 background-position:center;
 }
@@ -55,6 +55,7 @@ background-position:center;
 .hero h2{
 font-size:4rem;
 color:#9900CC;
+text-shadow:0 0 20px #9900CC;
 }
 
 .hero h3{
@@ -70,7 +71,7 @@ font-weight:700;
 .btn-principal{
 display:inline-block;
 margin-top:30px;
-padding:22px 50px;
+padding:15px 25px;
 font-size:1.2rem;
 font-weight:800;
 background:#9900CC;
@@ -79,6 +80,7 @@ text-decoration:none;
 border-radius:20px;
 box-shadow:0 0 30px #9900CC;
 animation:brillo 1.5s infinite;
+margin-bottom:20px;
 }
 
 @keyframes brillo{
@@ -167,6 +169,15 @@ cursor:pointer;
 }
 
 @media(max-width:768px){
+@media(max-width:768px){
+
+header{
+padding:15px 5%;
+}
+
+header h1{
+font-size:1.2rem;
+}
 
 .menu-toggle{
 display:block;
