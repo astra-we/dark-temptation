@@ -9,219 +9,134 @@
 
 <link rel="icon" href="logo.png">
 <link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css22?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-
-<style>
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'Poppins', sans-serif;
-    }
-
-    body {
-        background: #000;
-        color: #fff;
-    }
-
-    .btn-principal {
-        display: block;
-        background: linear-gradient(45deg, #9900CC, #00CCFF);
-        color: white;
-        font-size: 22px;
-        font-weight: bold;
-        padding: 18px 50px;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 50px;
-        margin: 20px auto;
-        max-width: 400px;
-        box-shadow: 0 0 20px #9900CC;
-        z-index: 999;
-        position: relative;
-    }
-
-    header {
-        background: #0a001a;
-        padding: 20px 11px;
-        display: flex;
-        justify-content:space-between;
-        align-items: center;
-        border-bottom: 2px solid #9900CC;
-    }
-
-    header h1 {
-        color: #9900CC;
-        font-size: 28px;
-        font-weight: 800;
-    }
-
-    .menu-toggle {
-        font-size: 30px;
-        color: #00CCFF;
-        cursor: pointer;
-    }
-
-    nav {
-        display: none;
-        position: absolute;
-        top: 70px;
-        right: 10px;
-        background: #1a0033;
-        border: 1px solid #9900CC;
-        border-radius: 8px;
-        padding: 15px;
-        box-shadow: 0 0 15px #9900CC;
-    }
-
-    nav a {
-        display: block;
-               color: #fff;
-        text-decoration: none;
-        padding: 8px 15px;
-        margin: 5px 0;
-        border-radius: 4px;
-    }
-
-    nav a:hover {
-        background: #9900CC;
-    }
-
-    .hero {
-        background: linear-gradient(135deg, #1a0033 0%, #000000 100%);
-        padding: 40px 20px;
-        text-align: center;
-    }
-
-    .hero-content h2 {
-        font-size: 42px;
-        color: #9900CC;
-        margin-bottom: 20px;
-        text-shadow: 0 0 10px #9900CC;
-    }
-
-    .premio-img {
-        width: 100%;
-        max-width: 500px;
-        margin: 20px auto;
-        border: 2px solid #9900CC;
-        border-radius: 12px;
-        box-shadow: 0 0 25px #9900CC;
-    }
-
-    .beneficios {
-        background: #05000f;
-        padding: 40px 20px;
-    }
-
-    .beneficios h3 {
-        color: #00CCFF;
-               text-align: center;
-        font-size: 28px;
-        margin-bottom: 30px;
-    }
-
-    .lista-beneficios {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-        max-width: 800px;
-        margin: 0 auto;
-    }
-
-    .item-beneficio {
-        background: #12002b;
-        border: 1px solid #9900CC;
-        padding: 20px;
-        border-radius: 10px;
-        text-align: center;
-    }
-
-    .item-beneficio h4 {
-        color: #9900CC;
-               margin-bottom: 10px;
-    }
-</style>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
 <a
 href="https://wa.me/5493764227673?text=Hola,%20¿me%20hacés%20un%20usuario%20para%20empezar%20a%20jugar?"
 target="_blank"
 class="btn-principal">
-👉 QUIERO EMPEZAR A JUGAR 👈
+QUIERO EMPEZAR A JUGAR
 </a>
 
 <header>
-    <h1>DARK TEMPTATION</h1>
-    <div class="menu-toggle">☰</div>
+<h1>DARK TEMPTATION</h1>
 
-    <nav>
-        <a href="#inicio">Inicio</a>
-        <a href="#beneficios">Beneficios</a>
-        <a href="#premios">Premios</a>
-        <a href="#registro">Registro</a>
-    </nav>
+<div class="menu-toggle">☰</div>
+
+<nav>
+<a href="#inicio">Inicio</a>
+<a href="#beneficios">Beneficios</a>
+<a href="#premios">Premios</a>
+<a href="#registro">Registro</a>
+</nav>
 </header>
 
 <section class="hero" id="inicio">
-    <div class="hero-content">
-        <h2>💜 DARK TEMPTATION 💜</h2>
-        <p style="font-size: 22px; color:#ffcc00; font-weight:bold;">🔥 ¡LOS PREMIOS MÁS GRANDES DE MISIONES! 🔥</p>
-        <p style="font-size: 18px; margin: 15px 0;">Ganancias que cambian tu vida. ¡Acá es donde la suerte se hace realidad!</p>
-        <img src="premio5.png" alt="Premio 5.000.000" class="premio-img">
-    </div>
-</section>
 
-<section class="beneficios" id="beneficios">
-    <h3>✅ ¿POR QUÉ ELEGIRNOS?</h3>
-    <div class="lista-beneficios">
-        <div class="item-beneficio">
-            <h4>⚡ REGISTRO AL INSTANTE ⚡</h4>
-            <p>En 1 minuto ya estás jugando. Sin demoras, sin trámites.</p>
-        </div>
-        <div class="item-beneficio">
-            <h4>💸 PAGOS AL MOMENTO 💸</h4>
-            <p>Retirá tu dinero cuando quieras. Transferencias seguras y rápidas.</p>
-        </div>
-        <div class="item-beneficio">
-            <h4>🎰 LOS MEJORES JUEGOS 🎰</h4>
-            <p>Máquinas exclusivas, gráficos increíbles y premios que caen todo el tiempo.</p>
-        </div>
-        <div class="item-beneficio">
-            <h4>👑 ATENCIÓN 24/7 👑</h4>
-            <p>Siempre estamos para vos. Consultas, ayuda y soporte a cualquier hora.</p>
-        </div>
-    </div>
-</section>
+<div class="hero-content">
 
-<section class="beneficios" id="premios" style="background:#000;">
-    <h3 style="color:#ffcc00;">🏆 PREMIOS MILLONARIOS 🏆</h3>
-    <div style="text-align:center; max-width: 600px; margin: 0 auto;">
-        <img src="premio2.png" alt="Premio 2 Millones" class="premio-img">
-        <p style="font-size: 24px; color:#ffcc00; font-weight:bold; margin: 10px 0;">¡GANÁ HASTA $ 30.000.000!</p>
-    </div>
-</section>
+<h2>💜 DARK TEMPTATION 💜</h2>
 
-<section class="hero" id="registro">
-    <h2>¡REGÍSTRATE Y GANÁ AHORA!</h2>
-    <p style="font-size: 20px; margin-bottom:20px;">Es rápido, fácil y 100% GRATIS.</p>
-    <a
-href="https://wa.me/5493764227673?text=Hola,%20quiero%20registrarme%20en%20DARK%20TEMPTATION,%20enviame%20los%20datos%20por%20favor."
+<h3>🎰 INFINITY EVOLUTION • CASINO ONLINE 🎰</h3>
+
+<p>
+🔥 ¡LOS PREMIOS MÁS GRANDES DE MISIONES! 🔥
+</p>
+
+<p class="monto">
+💸 ¡GANÁ HASTA $30.000.000 EN UNA SOLA JUGADA! 💸
+</p>
+  
+  <p class="subinfo">
+⚡ Usuario gratis • 👑 Atención 24/7 • 🚀 Acceso inmediato
+  </p>
+
+<a
+href="https://wa.me/5493764227673?text=Hola,%20me%20haces%20un%20usuario%20para%20empezar%20a%20jugar?"
 target="_blank"
 class="btn-principal">
-📩 QUIERO REGISTRARME 📩
+QUIERO MI USUARIO
 </a>
+
+</div>
+
 </section>
 
-<script>
-const menuToggle = document.querySelector('.menu-toggle');
-const nav = document.querySelector('nav');
+<section id="beneficios" class="beneficios">
 
-menuToggle.addEventListener('click', () => {
-    nav.style.display = nav.style.display === 'block' ? 'none' : 'block';
-});
-</script>
+<h2>🎁 ¿POR QUÉ ELEGIRNOS? 🎁</h2>
+
+<div class="grid">
+
+<div class="box">✅ Registro 100% gratuito</div>
+<div class="box">⚡ Pagos y retiros al momento</div>
+<div class="box">🎰 Juegos exclusivos</div>
+<div class="box">🔒 Seguridad garantizada</div>
+<div class="box">👑 Atención 24/7</div>
+
+</div>
+
+</section>
+
+<section id="premios" class="premios">
+
+<h2>🎲 LO QUE ENCONTRÁS ACÁ 🎲</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="mega2000000.jpg" alt="Mega Premio">
+<h3>🔥 JACKPOTS MILLONARIOS 🔥</h3>
+<p>Premios de $2.000.000, $5.000.000 y hasta $30.000.000.</p>
+</div>
+
+<div class="card">
+<img src="premio400000.jpg" alt="Premios">
+<h3>✨ MÁQUINAS DE ÚLTIMA TECNOLOGÍA ✨</h3>
+<p>Experiencia única y premios constantes.</p>
+</div>
+
+<div class="card">
+<img src="sensational30000000.jpg" alt="Premio 30 millones">
+<h3>👑 EL SUEÑO HECHO REALIDAD 👑</h3>
+<p>Ganancias que pueden cambiar tu vida.</p>
+</div>
+
+<div class="card">
+<img src="darktemptation.jpg" alt="Dark Temptation">
+<h3>💜 EXCLUSIVIDAD DARK TEMPTATION 💜</h3>
+<p>Infinity Evolution, la evolución del juego.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="registro" class="registro">
+
+<h2>👇 ¡REGÍSTRATE Y GANÁ AHORA! 👇</h2>
+
+<a
+href="https://wa.me/5493764227673?text=Hola,%20quiero%20registrarme%20en%20Dark%20Temptation%20Casino,%20enviame%20los%20datos%20y%20el%20enlace%20para%20empezar%20ya%20mismo."
+target="_blank"
+class="btn-principal">
+QUIERO EMPEZAR A JUGAR
+</a>
+
+</section>
+
+<footer>
+
+<p>© 2026 DARK TEMPTATION • Infinity Evolution</p>
+
+<p>Diseñado por Astra Web 🚀</p>
+
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
