@@ -1,0 +1,185 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#0b0b0b;
+color:white;
+}
+
+header{
+position:sticky;
+top:0;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:#120018;
+z-index:1000;
+}
+
+header h1{
+color:#9900CC;
+}
+
+nav{
+display:flex;
+gap:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:40px;
+background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url("hero.jpg");
+background-size:cover;
+background-position:center;
+}
+
+.hero h2{
+font-size:4rem;
+color:#9900CC;
+}
+
+.hero h3{
+margin:20px 0;
+}
+
+.monto{
+color:#FFCC00;
+font-size:1.3rem;
+font-weight:700;
+}
+
+.btn-principal{
+display:inline-block;
+margin-top:30px;
+padding:18px 40px;
+background:#9900CC;
+color:white;
+text-decoration:none;
+border-radius:15px;
+font-weight:700;
+box-shadow:0 0 25px #9900CC;
+animation:brillo 1.5s infinite;
+}
+
+@keyframes brillo{
+0%{box-shadow:0 0 10px #9900CC;}
+50%{box-shadow:0 0 35px #9900CC;}
+100%{box-shadow:0 0 10px #9900CC;}
+}
+
+.beneficios,
+.premios,
+.registro{
+padding:100px 8%;
+text-align:center;
+}
+
+.beneficios h2,
+.premios h2,
+.registro h2{
+margin-bottom:50px;
+color:#9900CC;
+}
+
+.grid,
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.box,
+.card{
+background:#181818;
+padding:25px;
+border-radius:20px;
+border:1px solid rgba(153,0,204,.3);
+}
+
+.card img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:15px;
+margin-bottom:15px;
+}
+
+.card h3{
+color:#FFCC00;
+margin-bottom:10px;
+}
+
+footer{
+padding:40px;
+text-align:center;
+background:#120018;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+width:60px;
+height:60px;
+border-radius:50%;
+background:#25D366;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:28px;
+text-decoration:none;
+color:white;
+z-index:9999;
+}
+
+.menu-toggle{
+display:none;
+font-size:2rem;
+cursor:pointer;
+}
+
+@media(max-width:768px){
+
+.menu-toggle{
+display:block;
+}
+
+nav{
+display:none;
+position:absolute;
+top:80px;
+left:0;
+width:100%;
+background:#120018;
+flex-direction:column;
+padding:20px;
+text-align:center;
+}
+
+nav.active{
+display:flex;
+}
+
+.hero h2{
+font-size:2.4rem;
+}
+
+}
