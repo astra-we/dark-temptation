@@ -40,12 +40,13 @@ text-decoration:none;
 }
 
 .hero{
-min-height:100vh;
+min-height:120vh;
 display:flex;
 justify-content:center;
 align-items:center;
 text-align:center;
 padding:40px;
+padding-top:120px;
 background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url("hero.jpg");
 background-size:cover;
 background-position:center;
@@ -69,13 +70,14 @@ font-weight:700;
 .btn-principal{
 display:inline-block;
 margin-top:30px;
-padding:18px 40px;
+padding:22px 50px;
+font-size:1.2rem;
+font-weight:800;
 background:#9900CC;
 color:white;
 text-decoration:none;
-border-radius:15px;
-font-weight:700;
-box-shadow:0 0 25px #9900CC;
+border-radius:20px;
+box-shadow:0 0 30px #9900CC;
 animation:brillo 1.5s infinite;
 }
 
@@ -111,7 +113,15 @@ gap:25px;
 background:#181818;
 padding:25px;
 border-radius:20px;
-border:1px solid rgba(153,0,204,.3);
+border:2px solid #9900CC;
+box-shadow:0 0 20px rgba(153,0,204,.5);
+transition:.4s;
+}
+
+.card:hover,
+.box:hover{
+transform:translateY(-5px);
+box-shadow:0 0 30px rgba(153,0,204,.8);
 }
 
 .card img{
@@ -182,4 +192,15 @@ display:flex;
 font-size:2.4rem;
 }
 
+}
+
+.subinfo{
+margin-top:15px;
+font-size:1rem;
+color:#d9b3ff;
+font-weight:600;
+}
+
+header{
+box-shadow:0 0 20px rgba(153,0,204,.4);
 }
