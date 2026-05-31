@@ -134,6 +134,18 @@ border-radius:15px;
 margin-bottom:15px;
 }
 
+.card{
+overflow:hidden;
+}
+
+.card img{
+transition:0.5s;
+}
+
+.card:hover img{
+transform:scale(1.08);
+}
+
 .card h3{
 color:#FFCC00;
 margin-bottom:10px;
@@ -214,4 +226,10 @@ font-weight:600;
 
 header{
 box-shadow:0 0 20px rgba(153,0,204,.4);
+}
+  
+.hero p{
+max-width:700px;
+margin:auto;
+line-height:1.6;
 }
