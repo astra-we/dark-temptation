@@ -91,6 +91,12 @@ border-radius:20px;
 box-shadow:0 0 30px #9900CC;
 animation:brillo 1.5s infinite;
 margin-bottom:20px;
+transition:.3s;
+}
+
+.btn-principal:hover{
+transform:translateY(-3px);
+box-shadow:0 0 40px #9900CC;
 }
 
 @keyframes brillo{
@@ -177,18 +183,24 @@ margin-bottom:20px;
 position:fixed;
 bottom:20px;
 right:20px;
-width:60px;
-height:60px;
+width:65px;
+height:65px;
 border-radius:50%;
 background:#25D366;
 display:flex;
 justify-content:center;
 align-items:center;
-font-size:28px;
+font-size:30px;
 text-decoration:none;
 color:white;
+box-shadow:0 0 25px rgba(37,211,102,.5);
+transition:.3s;
 z-index:9999;
 }
+
+.whatsapp:hover{
+transform:scale(1.1);
+  }
 
 .menu-toggle{
 display:none;
