@@ -40,6 +40,12 @@ gap:20px;
 nav a{
 color:white;
 text-decoration:none;
+font-weight:600;
+transition:.3s;
+}
+
+nav a:hover{
+color:#FFCC00;
 }
 
 .hero{
@@ -250,4 +256,31 @@ text-align:center;
 .testimonios h2{
 margin-bottom:50px;
 color:#9900CC;
+}
+.stats{
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+padding:70px 8%;
+}
+
+.stat{
+background:#181818;
+padding:25px;
+min-width:220px;
+border-radius:20px;
+border:2px solid #9900CC;
+box-shadow:0 0 20px rgba(153,0,204,.3);
+transition:.3s;
+}
+
+.stat:hover{
+transform:translateY(-5px);
+}
+
+.stat h3{
+color:#FFCC00;
+font-size:2rem;
+margin-bottom:10px;
   }
