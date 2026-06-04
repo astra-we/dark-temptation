@@ -10,8 +10,9 @@ scroll-behavior:smooth;
 
 body{
 font-family:'Poppins',sans-serif;
-background:#0b0b0b;
+background:#080812;
 color:white;
+overflow-x:hidden;
 }
 
 header{
@@ -21,7 +22,9 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 padding:20px 8%;
-background:#120018;
+background:rgba(8,8,18,.95);
+backdrop-filter:blur(10px);
+border-bottom:1px solid rgba(255,204,0,.15);
 z-index:1000;
 }
 
