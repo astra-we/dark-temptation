@@ -293,3 +293,8 @@ color:#FFCC00;
 font-size:2rem;
 margin-bottom:10px;
 }
+
+.hero-content{
+max-width:900px;
+margin:auto;
+}
