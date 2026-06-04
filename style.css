@@ -155,9 +155,15 @@ margin-bottom:10px;
 }
 
 footer{
-padding:40px;
+padding:60px 20px;
 text-align:center;
 background:#120018;
+border-top:1px solid rgba(255,204,0,.15);
+}
+
+footer h2{
+color:#FFCC00;
+margin-bottom:20px;
 }
 
 .whatsapp{
@@ -235,3 +241,13 @@ max-width:700px;
 margin:auto;
 line-height:1.6;
 }
+
+.testimonios{
+padding:100px 8%;
+text-align:center;
+}
+
+.testimonios h2{
+margin-bottom:50px;
+color:#9900CC;
+  }
