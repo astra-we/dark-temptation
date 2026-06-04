@@ -25,6 +25,7 @@ padding:20px 8%;
 background:rgba(8,8,18,.95);
 backdrop-filter:blur(10px);
 border-bottom:1px solid rgba(255,204,0,.15);
+box-shadow:0 0 20px rgba(153,0,204,.4);
 z-index:1000;
 }
 
@@ -237,10 +238,6 @@ font-size:1rem;
 color:#d9b3ff;
 font-weight:600;
 }
-
-header{
-box-shadow:0 0 20px rgba(153,0,204,.4);
-}
   
 .hero p{
 max-width:700px;
@@ -283,4 +280,4 @@ transform:translateY(-5px);
 color:#FFCC00;
 font-size:2rem;
 margin-bottom:10px;
-  }
+}
